@@ -1,0 +1,63 @@
+$referencias-width: 1225.63px;
+$referencias-height: 636.72px;
+
+.Referencias {
+  width: $referencias-width;
+  height: $referencias-height;
+  display: grid;
+  grid-template-columns: 302.6725px 307.6525px 307.6525px 307.6525px;
+  grid-template-rows: 333.19px 303.47px;
+  grid-template-areas: 
+    'reg mide men dulce'
+    'reg medio medio hola';
+}
+
+.reg {
+  grid-area: reg;
+  background-color: #D61946;
+}
+
+.mide {
+  grid-area: mide;
+}
+
+.mide img {
+  width: 311.39px;
+  height: 333.19px;
+}
+
+.men {
+  grid-area: men;
+}
+
+.men img {
+  width: 307.6525px;
+  height: 333.19px;
+}
+
+.dulce {
+  grid-area: dulce;
+}
+
+.dulce img {
+  width: 307.6525px;
+  height: 333.19px;
+}
+
+.medio {
+  grid-area: medio;
+}
+
+.medio img {
+  width: 615.3px;
+  height: 303.47px;
+}
+
+.hola {
+  grid-area: hola;
+}
+
+.hola img {
+  width: 307.6525px;
+  height: 303.53px;
+}
